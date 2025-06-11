@@ -15,8 +15,9 @@ header {
   padding: 20px;
 }
 
-header img {
-  max-width: 120px;
+/* Estilo SOLO para el logo */
+header img#logo {
+  width: 120px;
   height: auto;
   display: block;
   margin: 0;
@@ -42,3 +43,29 @@ main {
   border-radius: 10px;
 }
 
+section {
+  margin-top: 40px;
+}
+
+h2 {
+  color: #00d4ff;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
